@@ -43,7 +43,6 @@ class WebpackRemoveStrictModePlugin {
             const removed = origin.replace(this.strictReg, '');
             // need replace when origin content changed
             if (removed.length !== len) {
-              console.log('buffer.from', removed);
               const buff = Buffer.from(removed);
               compilation.assets[filename] = {
                 source: () => buff,
