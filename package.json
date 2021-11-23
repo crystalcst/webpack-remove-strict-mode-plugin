@@ -1,5 +1,5 @@
 {
-  "name": "webpack-remove-strict-mode-plugin",
+  "name": "@cryscheng/webpack-remove-strict-mode-plugin",
   "version": "1.0.0",
   "description": "a webpack plugin to remove `use strict` in js file",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YDSS/webpack-remove-strict-mode-plugin.git"
+    "url": "git+https://github.com/crystalcst/webpack-remove-strict-mode-plugin.git"
   },
   "keywords": [
     "webpack",
@@ -17,10 +17,10 @@
     "strict",
     "mode"
   ],
-  "author": "YDSS",
+  "author": "crystalcst",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/YDSS/webpack-remove-strict-mode-plugin/issues"
+    "url": "https://github.com/crystalcst/webpack-remove-strict-mode-plugin/issues"
   },
-  "homepage": "https://github.com/YDSS/webpack-remove-strict-mode-plugin#readme"
+  "homepage": "https://github.com/crystalcst/webpack-remove-strict-mode-plugin#readme"
 }
